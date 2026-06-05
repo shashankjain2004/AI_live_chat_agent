@@ -1,0 +1,28 @@
+.shell {
+  display: flex;
+  height: 100dvh;
+  background: var(--cream);
+  overflow: hidden;
+}
+
+.chatArea {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: var(--warm-white);
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 640px) {
+  .messages { padding: 20px 16px; }
+}
