@@ -1,4 +1,4 @@
-# Spur Chat — AI Live Support Agent
+# AI Live Chat Support Agent
 
 A full-stack AI customer support chat widget built for the **Spur Founding Full-Stack Engineer** take-home assignment. It simulates a live chat experience for a fictional e-commerce store ("Bloom & Ship"), powered by a real LLM API.
 
